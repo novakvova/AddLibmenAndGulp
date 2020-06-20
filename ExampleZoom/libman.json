@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "unpkg",
+      "library": "xzoom@1.0.14",
+      "destination": "wwwroot/lib/xzoom/",
+      "files": [
+        "dist/xzoom.min.js"
+      ]
+    }
+  ]
+}

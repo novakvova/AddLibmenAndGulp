@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+
+            <div class="xzoom-container">
+
+                <img class="xzoom" id="xzoom-default"
+                     xoriginal="https://www.rechi-dlya-malechi.com.ua/wp-content/uploads/2018/05/3090g3-6.8k.jpg" 
+                     src="https://www.rechi-dlya-malechi.com.ua/wp-content/uploads/2018/05/3090g3-6.8k.jpg"
+                     />
+                <div class="xzoom-thumbs">
+                    <a href="https://www.rechi-dlya-malechi.com.ua/wp-content/uploads/2018/05/3090g3-6.8k.jpg">
+                        <img class="xzoom-gallery" style=" object-fit: contain;" width="80" height="80" src="https://www.rechi-dlya-malechi.com.ua/wp-content/uploads/2018/05/3090g3-6.8k.jpg">
+                    </a>
+                    <a href="https://images.ua.prom.st/2076358553_w640_h640_2076358553.jpg">
+                        <img class="xzoom-gallery" style=" object-fit: contain;" width="80" height="80" src="https://images.ua.prom.st/2076358553_w640_h640_2076358553.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="large-7 column"></div>
+            <!-- default end -->
+        </div>
+        <div class="col-md-8">
+            <h1>Product description</h1>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script src="~/js/my_xzoom.js"></script>
+}
+
+
